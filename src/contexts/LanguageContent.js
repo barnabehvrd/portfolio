@@ -1,7 +1,6 @@
 import React, {createContext, useState, useEffect} from "react";
 import {data as dataEN} from "../languages/en";
-import {data as dataTR} from "../languages/tr";
-import {data as dataDE} from "../languages/de";
+import {data as dataFR} from "../languages/fr";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 const LanguageContext = createContext();
 
@@ -15,9 +14,8 @@ const LanguageProvider = ({children}) => {
 
   useEffect(() => {
     const languageData = {
-      TR: dataTR,
+      FR: dataFR,
       EN: dataEN,
-      DE: dataDE
     };
     setData(languageData[selectedLanguage]);
   }, [selectedLanguage]);

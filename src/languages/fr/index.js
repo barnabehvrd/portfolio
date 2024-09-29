@@ -29,44 +29,25 @@ const data = {
     display: true,
     schools: [
       {
-        schoolName: "Harvard University",
-        logo: require("../../assets/images/harvardLogo.png"),
-        subHeader: "Master of Science in Computer Science",
-        duration: "September 2017 - April 2019",
-        desc: "Participated in the research of XXX and published 3 papers.",
-        descBullets: [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-        ]
-      },
-      {
-        schoolName: "Stanford University",
-        logo: require("../../assets/images/iut_laval.png"),
-        subHeader: "Bachelor of Science in Computer Science",
-        duration: "September 2013 - April 2017",
-        desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-        descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+        schoolName: "IUT de Laval",
+        logo: require("../../assets/images/iut_laval2.jpg"),
+        subHeader: "BUT Informatique",
+        duration: "Septembre 2023 - Juin 2025",
+        desc: "Parcours A - Développement d'applications",
+        descBullets: []
       }
     ]
   },
   techStack: {
     title: "Proficiency",
-    viewSkillBars: true,
+    viewSkillBars: false,
     experience: [
       {
         Stack: "Frontend/Design",
         progressPercentage: "90%"
-      },
-      {
-        Stack: "Backend",
-        progressPercentage: "70%"
-      },
-      {
-        Stack: "Programming",
-        progressPercentage: "60%"
       }
     ],
-    displayCodersrank: false
+    displayCodersrank: true
   },
   workExperiences: {
     title: "Work Experiences",
@@ -218,7 +199,7 @@ const data = {
         event_url: "https://www.facebook.com/events/2339906106275053/"
       }
     ],
-    display: true
+    display: false
   },
   podcastSection: {
     title: emoji("Podcast 🎙️"),
@@ -226,14 +207,14 @@ const data = {
     podcast: [
       "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
     ],
-    display: true
+    display: false
   },
   contactInfo: {
-    title: emoji("Contact Me ☎️"),
+    title: emoji("Me contacter☎️"),
     subtitle:
       "Discuss a project or just want to say hi? My Inbox is open for all.",
-    number: "+92-0000000000",
-    email_address: "saadpasta70@gmail.com"
+    number: "(+33) 06 20 06 63 78",
+    email_address: "hello@voltis.cloud"
   },
   navbar: {
     skills: "Skills",
@@ -245,7 +226,7 @@ const data = {
     contactMe: "Contact Me"
   },
   buttons: {
-    contact: "Contact Me",
+    contact: "Me contacter",
     moreProjects: "More Projects",
     seeResume: "See my resume"
   }
